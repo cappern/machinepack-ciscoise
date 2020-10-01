@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-ciscoise",
+  "version": "1.0.0",
+  "description": "Work with cisco iSE.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Cisco ISE",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cappern/machinepack-ciscoise.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "Cisco ISE",
+    "machineDir": "machines/",
+    "machines": [
+      "get-internal-users",
+      "get-internal-user"
+    ]
+  }
+}
