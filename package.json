@@ -10,7 +10,7 @@
     "machines",
     "machinepack"
   ],
-  "author": "",
+  "author": "Christoffer Cappelen",
   "repository": {
     "type": "git",
     "url": "https://github.com/cappern/machinepack-ciscoise.git"
